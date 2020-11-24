@@ -1,5 +1,5 @@
 {
-  "name": "ccxt",
+  "name": "@picq/ccxt",
   "version": "1.38.13",
   "description": "A JavaScript / Python / PHP cryptocurrency trading library with support for 130+ exchanges",
   "main": "./ccxt.js",
@@ -9,9 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccxt/ccxt.git"
+    "udl": "https://github.com/picq/ccxt.git"
   },
-  "readme": "README.md",
   "scripts": {
     "docker": "docker-compose run --rm ccxt",
     "build": "npm run build-without-docs && npm run update-badges",
@@ -56,11 +55,7 @@
     "mocha": "^8.1.3",
     "ololog": "1.1.155"
   },
-  "author": {
-    "name": "Igor Kroitor",
-    "email": "igor.kroitor@gmail.com",
-    "url": "https://github.com/kroitor"
-  },
+  "author": "Igor Kroitor <igor.kroitor@gmail.com> (https://github.com/kroitor)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ccxt/ccxt/issues"
@@ -542,5 +537,9 @@
     "url": "https://opencollective.com/ccxt",
     "logo": "https://opencollective.com/ccxt/logo.txt"
   },
-  "ethereum": "0x26a3CB49578F07000575405a57888681249c35Fd"
+  "ethereum": "0x26a3CB49578F07000575405a57888681249c35Fd",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  }
 }
